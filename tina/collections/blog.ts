@@ -13,6 +13,69 @@ export const BlogCollection: Collection = {
   },
   fields: [
     {
+      name: "test",
+      label: "Test",
+      type: "object",
+      list: true,
+      templates: [
+        {
+          name: "test",
+          label: "Test",
+          fields: [
+            {
+              type: "string",
+              name: "title",
+              label: "Title",
+            }
+          ],
+        },
+        {
+          name: "test2",
+          label: "Test2",
+          fields: [
+            {
+              type: "string",
+              name: "title",
+              label: "Title",
+            }
+          ],
+        },
+        {
+          name: "test3",
+          label: "Test3",
+          fields: [
+            {
+              type: "string",
+              name: "title",
+              label: "Title",
+            }
+          ],
+        },
+        {
+          name: "test4",
+          label: "Test4",
+          fields: [
+            {
+              type: "string",
+              name: "title",
+              label: "Title",
+            }
+          ],
+        },
+        {
+          name: "test5",
+          label: "Test5",
+          fields: [
+            {
+              type: "string",
+              name: "title",
+              label: "Title",
+            }
+          ],
+        }
+      ]
+    },
+    {
       type: "string",
       name: "title",
       label: "Title",
